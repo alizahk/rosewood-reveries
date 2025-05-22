@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="webstyle.css"> <!-- Link to external CSS -->
+    
+    <style>
+    <!-- General styles -->
+    body {
+        margin: 0;
+        padding: 0; 
+    }
+
+    /* Navigation bar background */
+    .topnav {
+        background-color: #dc7a6c;
+    }
+
+    /* Image container styles */
+    .image-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* White section with light pink dots */
+    .white-section {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 60px;
+        position: relative;
+        background-image: radial-gradient(circle, #F2C4B9 10%, transparent 10%);
+        background-size: 20px 20px;
+        background-position: 0 0;
+        margin-top: -100px;
+    }
+
+    /* GIF container styling */
+    .gif-container {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gif-container img {
+        height: 450px;
+        margin-top: -30px;
+    }
+
+    /* Text container with light pink box */
+    .text-container {
+        flex: 1;
+        padding-left: 40px;
+        color: #4D3319;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-box {
+        background-color: #F2C4B9;
+        padding: 20px;
+        border-radius: 10px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .text-container h1 {
+        color: #4D3319;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    /* Fixed list alignment */
+    .text-box ul {
+        list-style-type: square;
+        padding-left: 20px;
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    .text-box li {
+        padding-left: 10px;
+        font-size: 25px;
+    }
+
+    /* Pink section with centered text */
+    .pink-section {
+        background-color: #dc7a6c;
+        padding: 40px;
+        text-align: center;
+        color: white;
+    }
+
+    /* New white box with light pink horizontal boxes */
+    .box-section {
+        background-color: white;
+        padding: 40px;
+        text-align: center;
+        color: #4D3319;
+    }
+
+    .horizontal-box {
+        background-color: #F2C4B9;
+        margin: 10px 0;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        color: #4D3319;
+    }
+
+    .horizontal-box img {
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    /* "About Us" style section */
+    .about-us-section {
+        background-color: #dc7a6c;
+        padding: 40px;
+        text-align: center;
+        color: white;
+    }
+
+    .about-us-section h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about-us-section p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <ul class="nav-links">
+            <li><a href="one.html">Home</a></li>
+            <li><a href="two.html">Shop</a></li>
+        </ul>
+        <div class="title">R&R</div>
+        <ul class="nav-links">
+            <li><a href="three.html">Contact</a></li>
+            <li><a href="four.html">Error Page</a></li>
+        </ul>
+    </div>
+
+    <!-- Image with text ontop -->
+    <div class="image-container">
+        <img src="header.png" alt="Lotuses" height="600">
+        <div class="overlay-text">
+            <div class="overlay-header">Main Heading <br> </div>
+            <div class="overlay-subtext"> <br> <br> This is the smaller subtext providing more information about the image or topic.</div>
+        </div>
+    </div>
+
+    <!-- White background section with light pink dots -->
+    <div class="white-section">
+        <div class="gif-container">
+            <img src="movingflower.gif" alt="Moving Flower">
+        </div>
+        <div class="text-container">
+            <div class="text-box">
+                <h1>Why is our store the best choice for everyone?</h1>
+                <ul>
+                    <br>
+                    <li>Locally sourced blooms to reduce carbon footprint</li>
+                    <li>Recyclable and eco-friendly packaging</li>
+                    <li>Supports pollinator-friendly farming</li>
+                    <li>Handwritten notes and special add-ons available</li>
+                    <li>Premium seasonal selections</li>
+                    <li>Same-day and next-day delivery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pink background with centered text -->
+    <div class="pink-section">
+        <h2>About Us</h2>
+        <p>As a small business committed to sustainability, we’re not just about creating perfect bouquets— we follow an eco-friendly approach in everything we do. We prioritize sustainability throughout our shop, from sourcing to packaging. Our locally sourced blooms come from trusted local farms that are extremely dedicated and have been providing for us for many years, whom we deeply appreciate. Additionally, our packaging is not only recyclable but also biodegradable, an eco-friendly touch that sets us apart from many others in our field of business. We also ensure that no harmful pesticides are used, embracing ethical and environmentally practices. <br> <br> 
+
+        Another thing we’re proud of is our same-day and next-day delivery options—perfect for last-minute gifts. You can place an order in-store, online, or reach out through the contact details listed on our website. To take advantage of this service, simply subscribe to our floral delivery plan, ensuring your flowers arrive quickly and directly to your door. As a first-time subscriber, you’ll receive an exclusive discount as our way of saying thank you! For more details, feel free to contact us or speak with an in-store associate. </p>
+    </div>
+
+    <!-- White box with two light pink horizontal boxes -->
+    <div class="box-section">
+        <h2>Customer Reviews</h2>
+        <div class="horizontal-box">
+            <img src="review1.png" alt="Image 1">
+            "Rosewood Reveries has been my go-to flower shop for many years! I have often bought bouquets for friends and family members on their special occasions, always leaving them in awe. Sometimes when I forget to place an order beforehand due to stress of managing parties or events, the floral delivery plan comes in handy. They almost always deliver on the same day, and if not the day after, which saves me the hassle of finding another store that meets their standards. Overall, I am satisfied with their products and would recommend this store if people are in need of bouquets!" - Ava
+        </div>
+        <div class="horizontal-box">
+            <img src="review2.png" alt="Image 2">
+            "I was in a panic a few days before my wedding since the florist I had originally booked cancelled last minute. No other stores had custom-made, unique bouquets that would deliver on time. However, I was relieved when a friend recommended Rosewood Reveries to me. Although there was an extra cost for the next day delivery subscription, the first-time subscriber discount and support they offered me made it worth it. Since the moment I contacted them, they were extremely reassuring, and worked with me to create a matching, beautiful bouquet. When my wife saw them, she was filled with joy. I can’t thank them enough for stepping in and helping make our wedding day even special." - Eli
+        </div>
+    </div>
+
+    <!-- Additional "About Us" style section -->
+    <div class="about-us-section">
+        <h2>Bouquet Care Guide</h2>
+        <p>Upon purchasing our bouquets, there are a few important tips we'd like to share with our customers to help extend the life of your flowers. Be sure to trim the stems at an angle every few days. Also, change the water regularly to prevent bacteria buildup. Lastly, keep your flowers away from direct sunlight and heat. With every purchase, you’ll receive a care guide free of charge, featuring these tips along with visual diagrams to make it easy to remember.</p>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align: center; background-color: #dc7a6c; color: white;">
+        <small><br> ©2025 by Alizah Karwani </small>
+    </div>
+</body>
+</html>

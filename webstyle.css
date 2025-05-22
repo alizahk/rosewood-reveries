@@ -1,0 +1,50 @@
+
+/* Snell Roundhand font for each file */
+* {
+    font-family: Times New Roman; /* Added font-family globally */
+} 
+
+/* Navigation Bar */
+.topnav {
+    display: flex; /* Use flexbox for layout/arrangement */
+    justify-content: space-between; /* Push content to left and right edges */
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+/* Unordered list for navigation links */
+.nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+    gap: 20px; /* Space between nav items */
+}
+
+.nav-links li {
+    display: inline-block; /* Make list items line up */
+}
+
+/* Link inside each nav item */
+.nav-links li a {
+    color: white; 
+    text-align: center;
+    padding: 14px 20px; /* Button-like padding */
+    text-decoration: none; 
+    font-size: 17px;
+}
+
+/* Hover for nav links */
+.nav-links li a:hover {
+    opacity: 0.7; 
+    background-color: #555; /* Dark background when hovering */
+    color: white;
+}
+
+/* Title/logo in the navbar */
+.topnav .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    flex-grow: 1; /* Title occupy remaining space */
+}

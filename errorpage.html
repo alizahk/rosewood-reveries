@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <title>Page Not Found</title>
+  <style>
+    
+    /* Overall page styling */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f1ebe1; 
+      font-family: Times New Roman; 
+      display: flex;
+      justify-content: center; 
+      align-items: center;    
+      height: 100vh;           
+    }
+
+    /* Box that has error message */
+    .error-box {
+      background-color: #ffffff; /* White background */
+      padding: 40px;
+      border-radius: 20px; /* Rounded corners */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* shadow */
+      text-align: center;
+      max-width: 400px;
+      border: 3px solid #F2C4B9; /* Light pink border */
+    }
+
+    /* 404 number */
+    .error-box h1 {
+      font-size: 72px;
+      margin: 0;
+      color: #333; /* Dark text */
+    }
+
+    /* Message box */
+    .error-box p {
+      font-size: 18px;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    /* Small text */
+    .error-box small {
+      font-size: 14px;
+      color: #666;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    /* Button to take you back to home page */
+    .home-link {
+      text-decoration: none;
+      background-color: #dc7a6c; /* Muted pink */
+      color: white;
+      padding: 10px 25px;
+      border-radius: 10px;
+      display: inline-block;
+      font-size: 16px;
+      transition: background 0.3s; /* Color change when hovering */
+    }
+
+    .home-link:hover {
+      background-color: #b45a4d; /* Darker pink when hovering */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Error message box -->
+  <div class="error-box">
+    <h1>404</h1>
+    <p>Oops! Page Not Found.</p>
+    <small>Sorry, the page you're looking for doesn't exist. If you think there's an issue please contact us!</small>
+    
+    <!-- Link back to home page -->
+    <a class="home-link" href="one.html">← Go back home</a>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="webstyle.css"> <!-- Link to external CSS -->
+    <style>
+    /* General Styles */
+    body {
+        margin: 0;
+        font-family: Snell Roundhand; 
+    }
+
+    /* Background Colours */
+    .topnav {
+        background-color: #dc7a6c; 
+    }
+
+    /* Hover and Active Link Styles */
+    .nav-links li a:hover {
+        opacity: 0.7;
+        background-color: #555;
+        color: white;
+    }
+
+    .topnav a.active {
+        background-color: #04AA6D;
+        color: black;
+    }
+
+    /* ======= NAVBAR TITLE ======= */
+    .title {
+        font-size: 24px; /* Larger font for title */
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        flex-grow: 1; /* Keeps title centered */
+    }
+
+    /* ======= NEW SECTION WITH BACKGROUND IMAGE AND WHITE BOX ======= */
+    .background-section {
+        background-image: url('bg.jpg'); /* Add your background image */
+        background-size: cover;
+        background-position: center;
+        padding: 60px 0; /* Adjust padding for better spacing */
+        text-align: center;
+        color: white;
+    }
+
+    .content-box {
+        background-color: #F2C4B9;
+        padding: 40px;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+        color: #4D3319; /* Dark brown text */
+    }
+
+    .content-box h1 {
+        color: #dc7a6c; /* Header color */
+        font-size: 36px;
+    }
+
+    .content-box p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .bottom-image {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bottom-image img {
+        width: 80%; /* Adjust the size of the image */
+        border-radius: 10px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <!-- ======= NAVIGATION BAR ======= -->
+    <div class="topnav">
+        <ul class="nav-links">
+            <li><a href="one.html">Home</a></li>
+            <li><a href="two.html">Shop</a></li>
+        </ul>
+        <div class="title">R&R</div>
+        <ul class="nav-links">
+            <li><a href="three.html">Contact</a></li>
+            <li><a href="four.html">Error Page</a></li>
+        </ul>
+    </div>
+
+    <!-- ======= NEW SECTION WITH BACKGROUND IMAGE AND WHITE BOX ======= -->
+    <div class="background-section">
+        <div class="content-box">
+            <h2 style="font-size: 32px; margin: 0; color: #4D3319;">Contact Us</h2>
+            <div style="background-color: f2c4b9; text-align: center; color: #4D3319; padding: 20px;">
+                <ul style="font-size: 20px; display: inline-block; text-align: left; line-height: 1.6; margin: 0;">
+                    <li><strong>Email:</strong> rosewoodreveries@gmail.com</li>
+                    <li><strong>Phone:</strong> (416) 123-4567</li>
+                    <li><strong>Hours of Operation:</strong>
+                        <ul style="margin-left: 20px;">
+                            <li>Monday – Friday: 9am – 6:30pm</li>
+                            <li>Saturday: 10am – 4pm</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </li>
+                    <li><strong>Social Media:</strong>
+                        <ul style="margin-left: 20px;">
+                            <li>Instagram: @rosewoodreveries</li>
+                            <li>Facebook: facebook.com/rosewoodreveries</li>
+                        </ul>
+                    </li>
+                    <li><strong>Address:</strong> 123 Blossom Avenue, Toronto, ON, M5A 1A1</li>
+                </ul>
+            </div>
+
+            <div class="bottom-image" style="margin-top: 15px; text-align: center;">
+                <img src="map.png" alt="Map showing store location" style="width: 100%; max-width: 400px; border: 2px solid #4D3319; border-radius: 5px;">
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center; background-color: #dc7a6c; color: white;">
+        <small><br> ©2025 by Alizah Karwani </small>
+    </div>
+                                            
+</body>
+</html>
